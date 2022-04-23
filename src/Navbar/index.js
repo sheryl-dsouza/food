@@ -7,8 +7,17 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
+		<NavLink to="/Home" activeStyle>
+			&#127817;HOME
+		</NavLink>
 		<NavLink to="/about" activeStyle>
-			About
+			ABOUT US
+		</NavLink>
+		<NavLink to="/Vendors" activeStyle>
+			VENDORS
+		</NavLink>
+		<NavLink to="/Contact" activeStyle>
+			CONTACT
 		</NavLink>
 		{/* <NavLink to="/login" activeStyle>
 			Login
