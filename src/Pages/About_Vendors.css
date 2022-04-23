@@ -34,7 +34,7 @@ img {
 .overlay {
     background-color: #F7F4F3;
     overflow-y:scroll;
-
+    color:rgb(72, 68, 68);
     margin-top: 100px;
 }
 
@@ -42,9 +42,9 @@ img {
     text-align: center;
     line-height: 2;
     background-color: #d1c3b765;
-    padding: -400px;
+    padding:30px;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     border-radius: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -57,8 +57,4 @@ img {
     width: 80%;
     height: 30%;
     color: #F7F4F3;
-}
-
-.img {
-    width: 2px;
 }

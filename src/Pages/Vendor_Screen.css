@@ -1,3 +1,4 @@
+
 .overlay {
     background-color: #F7F4F3;
     overflow-y:scroll;
@@ -7,7 +8,7 @@
 .foodform {
     display: block;
     width: 70%;
-    padding: 10px 40 px;
+    padding: 10px 20 px;
     margin: 5px auto;
     text-align: left;
     font-size: 100%;
@@ -32,6 +33,42 @@
     color: #692626;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    line-height: 2;
+    /* line-height: 2; */
     font-size: 18px;
+    font-style: oblique;
+  }
+
+  .modal {
+    font-size: 12px;
+    height: 20%;
+  }
+  .modal > .header {
+    width: 100%;
+
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
   }

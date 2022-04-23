@@ -1,13 +1,15 @@
 import React from 'react'
+import { Link} from "react-router-dom";
 import './Vendor_Screen.css';
-var perf =require('./form.html');
+import Popup from 'reactjs-popup';
+
 
 const Vendor_Screen = () => {
     return (
         <div class="overlay">
-            <h2>Welcome HEB</h2>
+            <h2>Welcome Trader Joes</h2>
             <div class="pastorder">
-                <p>See past orders here</p>
+                <a class="pastorder" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">See past orders here</a>
             </div>
             <div className="foodform"> <p class="text">Add Items </p></div>
                 <input 
@@ -33,15 +35,38 @@ const Vendor_Screen = () => {
                     className="foodinput" 
                     placeholder='e.g) 9:30 PM -10:30 PM'
                 />
-            <div className="foodform"> <p class="textarea">Special Requests or Notes </p></div>
+            <div className="foodform"> <p class="text">Special Requests or Notes </p></div>
                 <input 
-                    type = "textarea" 
+                    type = "text" 
                     className="foodinput" 
                     placeholder='e.g) drive to back entrance'
                 />
-            <p></p>
+            
+        
+
+            <Popup
+    trigger={<button className="button"> Submit Pick Up Request </button>}
+    modal
+    nested
+  >
+    {close => (
+      <div className="modal">
+        <div className="header"> Thank you for submitting a pick up request! </div>
+        <div className="actions">
+          
+        <Link to="/Home" class="button" margin="0 auto">Close</Link>
         </div>
+      </div>
+    )}
+  </Popup>
+  <div>
+      <br></br>
+      <br></br>
+  </div>
+        </div>
+
     );
+    
 };
     
 export default Vendor_Screen;
