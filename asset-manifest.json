@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sheryl-dsouza/food.git/static/css/main.ec837137.css",
-    "main.js": "/sheryl-dsouza/food.git/static/js/main.05d9d6b7.js",
-    "static/media/other-option.png": "/sheryl-dsouza/food.git/static/media/other-option.1546ba74710b160f546a.png",
-    "index.html": "/sheryl-dsouza/food.git/index.html",
-    "main.ec837137.css.map": "/sheryl-dsouza/food.git/static/css/main.ec837137.css.map",
-    "main.05d9d6b7.js.map": "/sheryl-dsouza/food.git/static/js/main.05d9d6b7.js.map"
+    "main.css": "/sheryl-dsouza.github.io/static/css/main.ec837137.css",
+    "main.js": "/sheryl-dsouza.github.io/static/js/main.e8cea3ab.js",
+    "static/media/other-option.png": "/sheryl-dsouza.github.io/static/media/other-option.1546ba74710b160f546a.png",
+    "index.html": "/sheryl-dsouza.github.io/index.html",
+    "main.ec837137.css.map": "/sheryl-dsouza.github.io/static/css/main.ec837137.css.map",
+    "main.e8cea3ab.js.map": "/sheryl-dsouza.github.io/static/js/main.e8cea3ab.js.map"
   },
   "entrypoints": [
     "static/css/main.ec837137.css",
-    "static/js/main.05d9d6b7.js"
+    "static/js/main.e8cea3ab.js"
   ]
 }
